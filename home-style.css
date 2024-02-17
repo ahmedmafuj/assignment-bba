@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* this nav section  */
+
+.menubar ul{
+    float: right;
+    list-style: none;
+    display: flex;
+    
+}
+.menubar li{
+    margin: 0 5px;
+    padding: 0px 15px;
+    
+    background-color: #3D0C11;
+    border-radius: 4px;
+    
+}
+.menubar a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+       
+}
+.menubar ul :hover{
+    background: #FF004D;
+}
+nav .logo {
+    color: #ffffff;
+    font-size: 45px;
+    position: absolute;
+    background-color: #3D0C11;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+/* the end nav  */
+
+
+/* Start home section  */
+
+.welcome-section {
+    display: flex;
+    text-align: justify;
+}
+
+.half-width{
+    width: 50%;}
+
+.image-area img {
+    width: 60%;
+    padding-top: 40px;
+}
+body>h1 {
+    font-size: 50px;
+    text-align: center;
+}
+body>h3{
+    font-size: 30px;
+    text-align: center;
+}
+.text-color{
+    color: #FF004D;
+}
+.text-color-2{
+    color: #ad0000;
+}
+.brief{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 130px;
+}
+.brief>h3{
+    font-size: 60px;
+    font-style: oblique;
+   
+   
+}
+.brief>h5{
+    font-size: 30px;
+}
+ section .brief :hover{
+    color: #3D0C11;
+    
+ }
