@@ -2,13 +2,14 @@ body{
     font-family: Ubuntu;
 }
 body{ 
-    /* background-image: url(img/image_6483441\ \(1\).JPG); */
+    /* background-image: url(img/); */
     background-color: #E3E1D9;
     margin: 0;
     padding: 0;
     
 
 }
+
 /* form-section  */
 section {
     text-align: center;
@@ -83,11 +84,11 @@ section>button:hover {
 .menubar ul :hover{
     background: #FF004D;
 }
-nav .logo {
-    color: #ffffff;
+/* nav .logo {
+    color: #530e0e;
     font-size: 45px;
     position: absolute;
-    background-color: #3D0C11;
+    background-color: #fdfdfd;
     border-radius: 10px;
     padding: 0 5px;
-}
+} */
