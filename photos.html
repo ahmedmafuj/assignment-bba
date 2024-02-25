@@ -26,11 +26,28 @@
             margin: 5px;
             padding: 5px;
         }
-        
+ 
+        body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(img/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    /* background-image: linear-gradient(#000000, #050531, #001277); */
+    
+}
+/* this nav section  */
+.menubar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .menubar ul{
     float: right;
     list-style: none;
     display: flex;
+    
     
 }
 .menubar li{
@@ -50,19 +67,39 @@
 .menubar ul :hover{
     background: #FF004D;
 }
+nav .logo img{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 45px;
+    
+}
+
+/* the end nav  */
+
+
+
+footer{
+    text-align:center;
+    color: #ffffff;
+    font-style: italic;
+}
+
+
     </style>
 </head>
 <body>
     <header>
         <nav class="menubar">
-            <!-- <div class="logo">BBA</div> -->
+            <div class="logo"><img src="img/bba-logo.png" alt=""></div>
             <div>
                 <ul>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="">Courses</a></li>
                     <li><a href="">Routine</a></li>
+                    <li><a href="index.html">Form</a></li>
                     <li><a href="photos.html">Photos</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>

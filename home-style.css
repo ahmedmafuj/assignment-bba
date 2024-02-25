@@ -1,17 +1,24 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(img/bg-3.jpg);
+    /* background-image: url(img/bg-3.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; */
+    background-image: linear-gradient(#000000, #050531, #001277);
     
 }
 /* this nav section  */
+.menubar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .menubar ul{
     float: right;
     list-style: none;
     display: flex;
+    
     
 }
 .menubar li{
@@ -31,13 +38,12 @@ body{
 .menubar ul :hover{
     background: #FF004D;
 }
-nav .logo {
-    color: #ffffff;
-    font-size: 45px;
-    position: absolute;
-    background-color: #3D0C11;
-    border-radius: 10px;
-    padding: 0 5px;
+nav .logo img{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 45px;
+    
 }
 
 /* the end nav  */
@@ -51,34 +57,43 @@ nav .logo {
 }
 
 .half-width{
-    width: 50%;}
+    width: 50%;
+
+}
 
 .image-area img {
-    width: 100%;
+   
     padding-top: 20px;
     padding-left: 1px;
+    display: flex;
+    /* width: 400px;
+    height: 400px; */
 }
 body>h1 {
     font-size: 50px;
-    text-align: right;
-    padding-right: 50px;
+    text-align: center;
+    /* padding-right: 50px; */
+   
 }
 body>h3{
+    
     font-size: 30px;
-    text-align: right;
-    padding-right: 200px;
+    text-align: center;
+    /* padding-right: 200px; */
 }
 .text-color{
-    color: #FF004D;
+    color: #fa0019;
 }
 .text-color-2{
-    color: #ad0000;
+    color: #ffffff;
 }
 .brief{
+    margin-top: 80px;
     text-align: right;
-    padding-right: 50px;
+    
+    /* padding-right: 50px;
     padding-top: 130px;
-    padding-left: 500px;
+    padding-left: 500px; */
 }
 .brief>h3{
     font-size: 60px;
@@ -87,10 +102,11 @@ body>h3{
    
 }
 .brief>h5{
+    color: white;
     font-size: 30px;
 }
  section .brief :hover{
-    color: #3D0C11;
+    color: #fa0019;
     
  }
 /* social section  */
@@ -102,17 +118,17 @@ body>h3{
 
 .fb a{
     color: #40A2E3;
-    font-size: 70px;
+    font-size: 50px;
     
 }
 .github a{
     color: #FC6736;
-    font-size: 70px;
+    font-size: 50px;
     
 }
 .email a{
     color: #0C2D57;
-    font-size: 70px;
+    font-size: 50px;
     
 }
 .bordar{
@@ -130,10 +146,10 @@ body>h3{
 }
 .bordar a :hover{
     color: rgb(0, 0, 0);
-    font-size: 75px;
+    font-size: 55px;
 }
 footer{
     text-align:center;
-    color: #000000;
+    color: #ffffff;
     font-style: italic;
 }
